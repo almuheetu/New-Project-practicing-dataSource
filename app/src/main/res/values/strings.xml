@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Practice Project about DataSource</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_employee">First Employee</string>
+    <string name="second_employee">Second Employee</string>
+    <string name="third_employee">Third Employee</string>
+    <string name="forth_employee">Forth Employee</string>
 </resources>
