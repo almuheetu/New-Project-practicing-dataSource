@@ -11,40 +11,41 @@
         android:id="@+id/employee_first_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/first_employee"
         android:layout_marginTop="200dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/first_employee"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/employee_second_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/second_employee"
         android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/second_employee"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employee_first_btn"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employee_first_btn" />
+
     <Button
         android:id="@+id/employee_third_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/third_employee"
         android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/third_employee"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employee_second_btn"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employee_second_btn" />
+
     <Button
         android:id="@+id/employee_forth_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/forth_employee"
         android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/forth_employee"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/employee_third_btn"/>
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employee_third_btn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

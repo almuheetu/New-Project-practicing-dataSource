@@ -9,7 +9,7 @@
         android:id="@+id/employeeFragment"
         android:name="com.example.practiceprojectaboutdatasource.EmployeeFragment"
         android:label="fragment_employee"
-        tools:layout="@layout/fragment_employee" >
+        tools:layout="@layout/fragment_employee">
         <action
             android:id="@+id/action_employeeFragment_to_employeeDetailsFragment"
             app:destination="@id/employeeDetailsFragment" />
@@ -18,7 +18,7 @@
         android:id="@+id/employeeDetailsFragment"
         android:name="com.example.practiceprojectaboutdatasource.EmployeeDetailsFragment"
         android:label="fragment_employee_details"
-        tools:layout="@layout/fragment_employee_details" >
+        tools:layout="@layout/fragment_employee_details">
         <action
             android:id="@+id/action_employeeDetailsFragment_to_employeeFragment"
             app:destination="@id/employeeFragment" />
