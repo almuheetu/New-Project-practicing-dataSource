@@ -2,6 +2,7 @@ package com.example.practiceprojectaboutdatasource
 
 val employeeList = listOf(
     Employee(
+        image = R.drawable.employee_profile_image,
         name = "John Doe",
         id = "1",
         title = "Software Engineer",
@@ -10,6 +11,7 @@ val employeeList = listOf(
         address = "USA"
     ),
     Employee(
+        image = R.drawable.employee_profile_image,
         name = "Jane Smith",
         id = "2",
         title = "Product Manager",
@@ -18,6 +20,7 @@ val employeeList = listOf(
         address = "Canada"
     ),
     Employee(
+        image = R.drawable.employee_profile_image,
         name = "Alice Johnson",
         id = "3",
         title = "Data Analyst",
@@ -26,6 +29,7 @@ val employeeList = listOf(
         address = "UK"
     ),
     Employee(
+        image = R.drawable.employee_profile_image,
         name = "Bob Brown",
         id = "4",
         title = "UX Designer",

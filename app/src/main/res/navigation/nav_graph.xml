@@ -22,5 +22,8 @@
         <action
             android:id="@+id/action_employeeDetailsFragment_to_employeeFragment"
             app:destination="@id/employeeFragment" />
+        <argument
+            android:name="data"
+            app:argType="com.example.practiceprojectaboutdatasource.Employee" />
     </fragment>
 </navigation>
